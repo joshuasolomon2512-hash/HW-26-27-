@@ -2,7 +2,7 @@ export const events = [
   {
     index: 1,
     id: "inauguration",
-    name: "Inaugurations",
+    name: "Inauguration",
     startTime: "09:30 AM",
     endTime: "10:00 AM",
     date: "13-Aug-2026",
@@ -17,7 +17,7 @@ export const events = [
     phases: [],
     
     // Manual status/phase overrides (optional)
-    isLive: false,
+    isLive: true,
     status: "",
     phase: "",
     winners: []
