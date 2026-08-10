@@ -2,7 +2,7 @@ export const events = [
   {
     index: 1,
     id: "inauguration",
-    name: "Inauguration",
+    name: "Inaugurations",
     startTime: "09:30 AM",
     endTime: "10:00 AM",
     date: "13-Aug-2026",
