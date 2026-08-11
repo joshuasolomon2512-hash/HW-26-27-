@@ -5,7 +5,7 @@ export const events = [
     name: "Inauguration",
     startTime: "09:30 AM",
     endTime: "10:00 AM",
-    date: "11-Aug-2026",
+    date: "13-Aug-2026",
     type: "program",
     venue: "Rev. Fr. P. Paul Raj Kumar Hall",
     description: "Welcome to the Hello World '26-'27 Edition.",
@@ -17,7 +17,7 @@ export const events = [
     phases: [],
     
     // Manual status/phase overrides (optional)
-    isLive: true,
+    isLive: false,
     status: "",
     phase: "",
     winners: []
