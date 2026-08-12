@@ -139,7 +139,7 @@ export const events = [
   "Time Duration: 30 minutes for each round",
     ],
     coordinator: "SARANYA M",
-    phone: "90251 618755",
+    phone: "90251 61875",
     phases: ["Oracle SQL", "2 Rounds"],
     
     // Manual status/phase overrides (optional)
