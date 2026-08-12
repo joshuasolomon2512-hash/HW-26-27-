@@ -28,7 +28,7 @@ export const events = [
     name: "Paper Presentation",
     startTime: "10:15 AM",
     endTime: "11:30 AM",
-    date: "13-Aug-2026",
+    date: "12-Aug-2026",
     type: "event",
     venue: "Rev. Fr. P. Paul Raj Kumar Hall",
     description: "Artificial Intelligence: Transforming the Future",
@@ -41,7 +41,7 @@ export const events = [
     phases: [ "Strictly English", "5 Mins PPT"],
     
     // Manual status/phase overrides (optional)
-    isLive: false,
+    isLive: true,
     status: "",
     phase: "",
     winners: []
@@ -52,7 +52,7 @@ export const events = [
     name: "Web Development",
     startTime: "10:30 AM",
     endTime: "11:30 AM",
-    date: "13-Aug-2026",
+    date: "12-Aug-2026",
     type: "event",
     venue: "BCA Lab",
     description: "WebCraft: Design. Code. Create.",
@@ -66,7 +66,7 @@ export const events = [
     phases: [ "HTML/CSS/JS", "1 Hr Limit"],
     
     // Manual status/phase overrides (optional)
-    isLive: false,
+    isLive: true,
     status: "",
     phase: "",
     winners: []
@@ -77,7 +77,7 @@ export const events = [
     name: "Code Blast",
     startTime: "11:30 AM",
     endTime: "12:30 PM",
-    date: "13-Aug-2026",
+    date: "12-Aug-2026",
     type: "event",
     venue: "M.Sc. Lab",
     description: "From Output To Logic",
@@ -92,7 +92,7 @@ export const events = [
     phases: ["C/C++/Java/Python", "1 Hr Limit"],
     
     // Manual status/phase overrides (optional)
-    isLive: false,
+    isLive: true,
     status: "",
     phase: "",
     winners: []
@@ -103,7 +103,7 @@ export const events = [
     name: "Debugging Challenge",
     startTime: "02:00 PM",
     endTime: "03:00 PM",
-    date: "13-Aug-2026",
+    date: "12-Aug-2026",
     type: "event",
     venue: "M.Sc. Lab",
     description: "Code Rescue : Hunt the Bugs",
@@ -117,7 +117,7 @@ export const events = [
     phases: [ "Python Only", "1 Hr Limit"],
     
     // Manual status/phase overrides (optional)
-    isLive: false,
+    isLive: true,
     status: "",
     phase: "",
     winners: []
@@ -128,7 +128,7 @@ export const events = [
     name: "SQL Query Challenge",
     startTime: "02:00 PM",
     endTime: "03:30 PM",
-    date: "13-Aug-2026",
+    date: "12-Aug-2026",
     type: "event",
     venue: "BCA Lab",
     description: "Query Quest : The Ultimate SQL Challenge",
@@ -143,7 +143,7 @@ export const events = [
     phases: ["Oracle SQL", "2 Rounds"],
     
     // Manual status/phase overrides (optional)
-    isLive: false,
+    isLive: true,
     status: "",
     phase: "",
     winners: []
@@ -154,7 +154,7 @@ export const events = [
     name: "Valedictory",
     startTime: "03:45 PM",
     endTime: "04:30 PM",
-    date: "13-Aug-2026",
+    date: "12-Aug-2026",
     type: "program",
     venue: "Rev. Fr. P. Paul Raj Kumar Hall",
     description: "Hello World ’26–’27 : Honouring Excellence",
@@ -166,7 +166,7 @@ export const events = [
     phases: [],
     
     // Manual status/phase overrides (optional)
-    isLive: false,
+    isLive: true,
     status: "",
     phase: "",
     winners: []
