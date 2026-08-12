@@ -41,7 +41,7 @@ export function EventProvider({ children }) {
       // 3. Resolve phase based on explicit overrides or calculate automatically
       let finalPhase = e.phase;
       if (!finalPhase) {
-        finalPhase = e.type === 'program' ? '' : (finalStatus === 'Started' ? 'Ongoing' : finalStatus === 'Ended' ? 'Registrations Closed' : 'Registrations Open');
+        finalPhase = e.type === 'program' ? '' : (finalStatus === 'Started' ? 'Ongoing' : finalStatus === 'Ended' ? 'Registrations Closed' : '');
       }
 
       return {
