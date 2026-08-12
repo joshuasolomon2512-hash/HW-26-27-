@@ -37,7 +37,7 @@ export const events = [
       "Communication must be strictly in English",
     ],
     coordinator: "SUBALAKSHMI G",
-    phone: "8838756475",
+    phone: "88387 56475",
     phases: [ "Strictly English", "5 Mins PPT"],
     
     // Manual status/phase overrides (optional)
@@ -62,7 +62,7 @@ export const events = [
   "Time Duration: 1 Hour",
     ],
     coordinator: "NISHA R",
-    phone: "9342731877",
+    phone: "93427 31877",
     phases: [ "HTML/CSS/JS", "1 Hr Limit"],
     
     // Manual status/phase overrides (optional)
@@ -88,7 +88,7 @@ export const events = [
       "Time Duration: 1 Hour"
     ],
     coordinator: "ANVARDEEN S",
-    phone: "9790218338",
+    phone: "96006 50819",
     phases: ["C/C++/Java/Python", "1 Hr Limit"],
     
     // Manual status/phase overrides (optional)
@@ -113,7 +113,7 @@ export const events = [
   "Time Duration: 1 Hour",
     ],
     coordinator: "JAYAJOTHI B",
-    phone: "9944359697",
+    phone: "63744 60486",
     phases: [ "Python Only", "1 Hr Limit"],
     
     // Manual status/phase overrides (optional)
@@ -139,7 +139,7 @@ export const events = [
   "Time Duration: 30 minutes for each round",
     ],
     coordinator: "SARANYA M",
-    phone: "9790218338",
+    phone: "90251 618755",
     phases: ["Oracle SQL", "2 Rounds"],
     
     // Manual status/phase overrides (optional)
