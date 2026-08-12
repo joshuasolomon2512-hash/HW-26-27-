@@ -190,7 +190,7 @@ export function getMergedEventData(staticEvent, sheetOverrides = []) {
         .filter(w => w.team.length > 0);
     }
   } else {
-    merged.phase = staticEvent.type === 'program' ? '' : (merged.status === 'Started' ? 'Ongoing' : merged.status === 'Ended' ? 'Registrations Closed' : 'Registrations Open');
+    merged.phase = staticEvent.type === 'program' ? '' : (merged.status === 'Started' ? 'Ongoing' : merged.status === 'Ended' ? 'Registrations Closed' : '');
     merged.winners = [];
   }
 
@@ -208,7 +208,7 @@ export function getMergedEvents(staticEvents, sheetOverrides = []) {
   if (!sheetOverrides || sheetOverrides.length === 0) {
     return staticEvents.map(e => {
       const status = computeEventStatus(e, []);
-      const phase = e.type === 'program' ? '' : (status === 'Started' ? 'Ongoing' : status === 'Ended' ? 'Registrations Closed' : 'Registrations Open');
+      const phase = e.type === 'program' ? '' : (status === 'Started' ? 'Ongoing' : status === 'Ended' ? 'Registrations Closed' : '');
       return {
         ...e,
         status,
@@ -247,7 +247,7 @@ export function getMergedEvents(staticEvents, sheetOverrides = []) {
       };
       
       newEvent.status = computeEventStatus(newEvent, sheetOverrides);
-      newEvent.phase = newEvent.type === 'program' ? '' : (row.phase || (newEvent.status === 'Started' ? 'Ongoing' : newEvent.status === 'Ended' ? 'Registrations Closed' : 'Registrations Open'));
+      newEvent.phase = newEvent.type === 'program' ? '' : (row.phase || (newEvent.status === 'Started' ? 'Ongoing' : newEvent.status === 'Ended' ? 'Registrations Closed' : ''));
       
       if (row.winners) {
         newEvent.winners = row.winners
