@@ -143,7 +143,7 @@ export const events = [
     phases: ["Oracle SQL", "2 Rounds"],
     
     // Manual status/phase overrides (optional)
-    isLive: false,
+    isLive: true,
     status: "",
     phase: "",
     winners: []
