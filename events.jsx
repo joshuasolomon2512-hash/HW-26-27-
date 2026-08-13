@@ -130,7 +130,7 @@ export const events = [
     endTime: "03:30 PM",
     date: "13-Aug-2026",
     type: "event",
-    venue: "BCA Lab",
+    venue: "MSC Lab",
     description: "Query Quest : The Ultimate SQL Challenge",
     rules: [
        "Participants must use only the Oracle SQL environment provided in the lab",
