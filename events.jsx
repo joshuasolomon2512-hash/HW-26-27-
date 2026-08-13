@@ -41,7 +41,7 @@ export const events = [
     phases: [ "Strictly English", "5 Mins PPT"],
     
     // Manual status/phase overrides (optional)
-    isLive: false,
+    isLive: true,
     status: "",
     phase: "",
     winners: []
