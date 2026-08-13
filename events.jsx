@@ -92,7 +92,7 @@ export const events = [
     phases: ["C/C++/Java/Python", "1 Hr Limit"],
     
     // Manual status/phase overrides (optional)
-    isLive: false,
+    isLive: true,
     status: "",
     phase: "",
     winners: []
