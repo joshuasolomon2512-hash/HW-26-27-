@@ -17,7 +17,7 @@ export const events = [
     phases: [],
     
     // Manual status/phase overrides (optional)
-    isLive: false,
+    isLive: true,
     status: "",
     phase: "",
     winners: []
