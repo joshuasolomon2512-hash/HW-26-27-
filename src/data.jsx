@@ -5,7 +5,7 @@ export const festInfo = {
   formattedDate: "Thursday, August 13, 2026",
   timeSpan: "09:30 AM — 04:30 PM",
   logo: "/assets/logo.png",
-  supportPhone: "+91 84385 17227",
+  supportPhone: "",
   supportEmail: "world.init26@gmail.com",
   helpDesk: "Seminar Hall Lobby (1st Floor)",
   copyright: "Copyright © @helloworld '26-'27"
