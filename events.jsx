@@ -11,7 +11,7 @@ export const events = [
     description: "Welcome to the Hello World '26-'27 Edition.",
     rules: [],
     coordinator: "POONGUZHALI A",
-    phone: "84385 17227",
+    phone: "",
     chiefGuest: "",
     chiefGuestTitle: "Guest of Honor",
     phases: [],
@@ -37,7 +37,7 @@ export const events = [
       "Communication must be strictly in English",
     ],
     coordinator: "SUBALAKSHMI G",
-    phone: "88387 56475",
+    phone: "",
     phases: [ "Strictly English", "5 Mins PPT"],
     
     // Manual status/phase overrides (optional)
@@ -62,7 +62,7 @@ export const events = [
   "Time Duration: 1 Hour",
     ],
     coordinator: "NISHA R",
-    phone: "93427 31877",
+    phone: "",
     phases: [ "HTML/CSS/JS", "1 Hr Limit"],
     
     // Manual status/phase overrides (optional)
@@ -88,7 +88,7 @@ export const events = [
       "Time Duration: 1 Hour"
     ],
     coordinator: "ANVARDEEN S",
-    phone: "96006 50819",
+    phone: "",
     phases: ["C/C++/Java/Python", "1 Hr Limit"],
     
     // Manual status/phase overrides (optional)
@@ -113,7 +113,7 @@ export const events = [
   "Time Duration: 1 Hour",
     ],
     coordinator: "JAYAJOTHI B",
-    phone: "63744 60486",
+    phone: "",
     phases: [ "Python Only", "1 Hr Limit"],
     
     // Manual status/phase overrides (optional)
@@ -139,7 +139,7 @@ export const events = [
   "Time Duration: 30 minutes for each round",
     ],
     coordinator: "SARANYA M",
-    phone: "90251 61875",
+    phone: "",
     phases: ["Oracle SQL", "2 Rounds"],
     
     // Manual status/phase overrides (optional)
@@ -160,7 +160,7 @@ export const events = [
     description: "Hello World ’26–’27 : Honouring Excellence",
     rules: [],
     coordinator: "JOSHUA S",
-    phone: "84385 17227",
+    phone: "",
     chiefGuest: "",
     chiefGuestTitle: "Chief Guest",
     phases: [],
